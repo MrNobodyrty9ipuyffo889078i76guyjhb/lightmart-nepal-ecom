@@ -98,7 +98,7 @@ function Home() {
         <h2 className="text-xl font-semibold tracking-tight sm:text-2xl">Our Commercial Clients</h2>
         <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
           {["Hotel Client", "Housing Project", "Retail Chain", "Hospital", "School", "Restaurant"].map((n) => (
-            <LogoPlaceholder key={n} label={n} />
+            <LogoPlaceholder key={n} name={n} />
           ))}
         </div>
       </section>
